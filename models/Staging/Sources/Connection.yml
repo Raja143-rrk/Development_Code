@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: dbt_mig     # project-level name
+    database: DBT_MIG
+    schema: Raw
+    tables:
+      - name: insurance_policies
+        description: Raw insurance policy data

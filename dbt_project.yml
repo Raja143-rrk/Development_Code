@@ -1,0 +1,15 @@
+name: insurance_project
+version: '1.0'
+config-version: 2
+
+profile: default
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+models:
+  insurance_project:
+    +materialized: view

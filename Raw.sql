@@ -1,0 +1,1 @@
+dbt run --select stg_insurance_policies

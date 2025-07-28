@@ -1,0 +1,1 @@
+select * from {{ source('dbt_mig', 'insurance_policies') }}
