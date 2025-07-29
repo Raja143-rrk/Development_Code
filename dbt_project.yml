@@ -12,4 +12,6 @@ snapshot-paths: ["snapshots"]
 
 models:
   insurance_project:
-    +materialized: view
+    +materialized: table
+    +schema: "staging"
+
